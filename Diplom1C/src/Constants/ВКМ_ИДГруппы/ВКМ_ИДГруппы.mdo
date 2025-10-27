@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13c51637-c2bb-4222-91c3-76457b643ce9">
+  <producedTypes>
+    <managerType typeId="642994db-bd8a-45cf-a7da-19317903e57e" valueTypeId="5740627f-d671-4215-8e05-2cf5958c19bb"/>
+    <valueManagerType typeId="626021ad-6a92-41cb-b073-2a9dd6a10498" valueTypeId="61aea23d-8553-497f-bdbd-92f01ed8d301"/>
+    <valueKeyType typeId="3d8a965c-bf68-462b-8603-3092a80c4003" valueTypeId="54d6711d-8775-4b88-9ca2-0c061e8840d3"/>
+  </producedTypes>
+  <name>ВКМ_ИДГруппы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификатор группы для чат бота</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
